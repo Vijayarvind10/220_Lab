@@ -1,0 +1,23 @@
+# Ignore large or generated artifacts
+downloaded_simulations/
+cse220_home/exp/
+cse220_home/plot/
+plot_outputs/
+traces/
+spec2017/
+allbench_traces/
+*.DS_Store
+cse220_home/.cache/
+cse220_home/.DS_Store
+*.tar.gz
+*.zip
+*.log
+
+# Local/cloud secrets and state
+scarab-gcp/gcp/.ssh/
+scarab-gcp/gcp/terraform.tfstate*
+scarab-gcp/gcp/cookies.txt
+
+# Python cache
+__pycache__/
+*.pyc
